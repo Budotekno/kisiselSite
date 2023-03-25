@@ -1,0 +1,388 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #dbdbdb;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#sosyal{
+
+    background: black;
+    height: 55px;
+    color: white;
+    position: sticky; 
+    /* Sabit kalmasını istediğimiz zaman böyle yaparız */
+    top: 0;
+    z-index: 1;
+    padding: 15px;
+    font-size: 18px;
+    text-align:right
+
+}
+
+#sosyalBaslik{
+    float: left;
+    letter-spacing: 2px;
+
+}
+
+#sosyalSlogan{
+    font-size: 12px;
+    letter-spacing: 1px;
+
+}
+
+#contnier{
+    width: 80%;
+    margin: auto;
+    height: auto;
+
+}
+
+#header{
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 2px 8px 0px; 
+    background-image: url(img/banner1.jpg);
+    background-color: black;
+}
+
+/*
+#headerResim{
+    width: 100%;
+    height: 250px;
+    border-radius: 0  0 10px 10px;
+}*/
+#opaklik{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    opacity: 0.3;
+}
+#headerYazi{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top: 150px;
+    left: 700px;
+}
+
+#menu{
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    border-radius:10px 10px 0 0 ;
+    box-shadow: 0 2px 8px 0px; 
+    margin: 15px 0 0 0 ;
+    overflow: auto;
+}
+
+#naw{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    height: auto;
+}
+
+#naw ul{
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#naw li {
+    list-style: none;
+}
+#naw a {
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #b4b4b4;
+    padding-left: 20px;
+    display: block;
+}
+
+#naw a:hover{
+    color: white;
+    background-color: #adadad;
+}
+
+i{
+    margin-right: 10px;
+}
+
+#main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+
+}
+
+.icerik{
+    width: 48%;
+    height: auto;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px -1px; 
+    margin-bottom: 20px;
+    
+}
+
+.img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    transition: opacity 0.5s;
+    
+}
+
+.img:hover{
+    opacity: 0.6;
+}
+h5{
+    margin: 10px;
+    color: dimgray;
+}
+
+.icerikTxt{
+    margin: 10px;
+    color: dimgray;
+
+}
+
+.btnDevam:link{
+    display: block;
+    width: 150px;
+    height: 45px;
+    padding: 10px 20px;
+    background-color: #0071ce;
+    color: white;
+    text-decoration: none;
+    margin:  15px;
+    border-radius: 10px;
+}
+
+.btnDevam:hover{
+    opacity: 0.8;
+}
+
+.btnDevam{
+    color: white;
+}
+
+.footer{
+
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color: white;
+    line-height: 75px;
+    text-align: center;
+    box-shadow: 0 2px 8px 2px;  
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px;  
+
+}
+
+.hakkimizdaImg{
+    width: 350px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    margin: 10px;
+    transition: opacity 0.8s;
+}
+
+.hakkimizdaImg:hover{
+    opacity: 0.6;
+}
+
+.hakkimizdaYazi{
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: Cambria;
+    text-indent: 40px;
+    color: #494949;
+
+
+}
+
+.refIcerik{
+    width: 32%;
+    height: 330px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px -1px;
+    margin: 10px 0 10px 10px;
+    float: left;
+
+}
+
+.refImg{
+    width: 100%;
+    border-radius: 10px 10px 0 0 ;
+    transition: opacity 0.6s;
+}
+
+.refImg:hover{
+    opacity: 0.5;
+}
+
+.refBaslik{
+    text-align: center;
+    background-color: #f1eded;
+    width: 100%;
+    height: 45px;
+    margin: 0;
+   
+}
+
+.refTxt{
+    font-size: 15px;
+    text-align: center;
+    height: 60px;
+    padding-top: 10px;
+    
+    
+}
+
+.galeriImg{
+    width: 22%;
+    height: 200px;
+    margin: 20px 0 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px -1px;
+    opacity: 0.6;
+    transition:all 0.5s;
+}
+
+.galeriImg:hover{
+    opacity: 1.0;
+    border: 7px solid white;
+    cursor: pointer;
+   
+}
+
+#main a:link{
+    text-decoration: none;
+}
+
+
+
+.from{
+    width: 49%;
+    height: 380px;
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    margin: 10px;
+    float: left;
+    padding: 10px;
+
+}
+
+
+.adres{
+    width: 47%;
+    height: 380px;
+    border-radius: 10px;
+    border: 1px solid #d8d8d8;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btnGonder{
+  
+    margin-left: 150px;
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border:none;
+    float: right;
+    border-radius: 4px;
+}
+
+iframe{
+
+    width: 98%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px -1px;
+    margin-left: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+
+}
+
+.adresIletisim{
+    
+    width: 98%;
+    height: 400px;
+    box-shadow: 0 2px 8px -1px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #f2f2f2;
+        
+    
+}
+
+.etiket{
+
+    width: 25%;
+    float: left;
+    margin: 6px 0 0 0 ;
+}
+
+.inputTxt{
+    width: 75%;
+    margin: 6px 0 0 0;
+    float: left;
+}
+
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=text],textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.fromSatir::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+p{
+    display: block;
+    font-family: Calibri;
+    margin: 10px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
